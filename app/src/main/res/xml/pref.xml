@@ -1,0 +1,30 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory >
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="A"
+            android:title="抢红包" />
+	<SwitchPreference
+            android:defaultValue="true"
+            android:dependency="A"
+            android:key="amount"
+            android:title="金额提示" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:dependency="A"
+            android:key="B"
+            android:title="口令红包" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:dependency="A"
+            android:key="C"
+            android:title="延时抢红包" />
+
+        <nico.styTool.NS_MOBILE_EXTRA
+            android:defaultValue="true"
+            android:dependency="C"
+            android:layout="@layout/preference_checkbox"
+            android:title="延时时长" />
+    </PreferenceCategory>
+</PreferenceScreen>

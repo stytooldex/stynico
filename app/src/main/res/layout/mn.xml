@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical"
+	android:gravity="top|center">
+
+	<android.support.design.widget.AppBarLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbar"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            android:background="?attr/colorPrimary">
+
+	    </android.support.v7.widget.Toolbar>
+
+	</android.support.design.widget.AppBarLayout>
+
+	<LinearLayout
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent"
+	    android:orientation="horizontal"
+	    android:gravity="center">
+
+	    <Button
+		android:id="@+id/selectBtn"
+		android:textSize="11sp"
+		android:layout_width="wrap_content"
+		android:layout_height="32dp"
+		android:text="  选择视频文件  "
+		android:padding="6dp"
+		android:background="#00000000"/>
+
+	    <LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical">
+
+		<EditText
+		    android:id="@+id/srcEt"
+		    android:layout_width="fill_parent"
+		    android:layout_height="40dp"
+		    android:textSize="8sp"/>
+
+	    </LinearLayout>
+
+	</LinearLayout>
+
+	<Button
+	    android:id="@+id/selectDirBtn"
+	    android:layout_width="0dp"
+	    android:layout_height="0dp"/>
+
+	<LinearLayout
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent"
+	    android:orientation="vertical">
+
+	    <EditText
+		android:id="@+id/outEt"
+		android:layout_width="fill_parent"
+		android:layout_height="40dp"
+		android:hint="默认保存路径: /sdcard/Android/styTool/"
+		android:textSize="14sp"
+		android:paddingLeft="10dp"/>
+
+	</LinearLayout>
+
+	<CheckBox
+	    android:id="@+id/checkbox"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:checked="true"
+	    android:text="修改删除原文件"
+	    android:layout_margin="10dp"/>
+
+	<Button
+	    android:id="@+id/convertBtn"
+	    android:textSize="11sp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="32dp"
+	    android:text="确定修改"
+	    android:background="#00000000"/>
+
+	<TextView
+	    android:id="@+id/percentTv"
+	    android:visibility="gone"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="转换比例："/>
+
+	<Button
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:onClick="generate"
+	    android:text="生成二维码"
+	    android:background="#00000000"
+	    android:textSize="14sp"
+	    android:layout_marginTop="4dp"
+	    android:visibility="gone"/>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
+

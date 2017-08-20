@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:paddingLeft="?attr/dialogPreferredPadding"
+	android:paddingTop="@dimen/abc_dialog_padding_top_material"
+	android:paddingRight="?attr/dialogPreferredPadding"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical">
+
+		<EditText
+			android:id="@+id/et_phone"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:hint="请输入自定义对方号码"
+			android:inputType="number"
+			android:lines="1"/>
+
+	</LinearLayout>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textSize="0sp"
+		android:visibility="gone"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical">
+
+		<EditText
+			android:id="@+id/et_time"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:hint="请输入显示短信时间"
+			android:text="2000-01-09 23:50:20"
+			android:layout_marginTop="6dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical">
+
+		<EditText
+			android:id="@+id/et_context"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:hint="请输入伪装短信内容"
+			android:layout_marginTop="6dp"/>
+
+	</LinearLayout>
+
+	<RelativeLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_marginTop="6dp">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="没有短信么？"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_alignParentRight="false"
+			android:layout_alignParentLeft="true"/>
+
+		<LinearLayout
+			android:layout_height="48dp"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:gravity="center">
+
+			<Button
+				android:id="@+id/btn"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:clickable="true"
+				android:foreground="?android:attr/selectableItemBackground"
+				android:text="兼容其他系统"
+				android:textSize="15sp"
+				android:background="#00000000"
+				android:layout_weight="1.0"
+				android:visibility="gone"/>
+
+			<Button
+				android:id="@+id/insert_sms"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:clickable="true"
+				android:foreground="?android:attr/selectableItemBackground"
+				android:text="确定伪装短信"
+				android:textSize="15sp"
+				android:background="#00000000"
+				android:layout_weight="1.0"/>
+
+		</LinearLayout>
+
+	</RelativeLayout>
+
+</LinearLayout>
+

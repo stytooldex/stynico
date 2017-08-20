@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:gravity="top|center">
+
+		<LinearLayout
+			android:layout_height="52dp"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:layout_gravity="left|center"
+			android:layout_margin="4dp">
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:textSize="15sp"
+				android:text="清除本机全部缓存非root"
+				android:gravity="center"
+				android:id="@+id/smalilayout3tilTextView1"
+				android:layout_weight="1.0"
+				android:background="@drawable/tb_"/>
+
+			<View
+				android:layout_height="1dp"
+				android:layout_width="16sp"/>
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:textSize="15sp"
+				android:text="解除（MIUI）授权25秒"
+				android:background="@drawable/tb_"
+				android:gravity="center"
+				android:id="@+id/smalilayout3tilTextView2"
+				android:layout_weight="1.0"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="52dp"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:gravity="right|center"
+			android:layout_margin="6dp">
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:textSize="15sp"
+				android:text="网易云音乐启动背景替换"
+				android:background="@drawable/tb_"
+				android:gravity="center"
+				android:id="@+id/smalilayout3tilTextView3"
+				android:layout_weight="1.0"/>
+
+			<View
+				android:layout_height="1dp"
+				android:layout_width="16sp"/>
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:textSize="15sp"
+				android:background="@drawable/tb_"
+				android:gravity="center"
+				android:id="@+id/smalilayout3tilTextView4"
+				android:layout_weight="1.0"
+				android:text="提取APK"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="52dp"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:layout_margin="6dp">
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:textSize="15sp"
+				android:gravity="center"
+				android:background="@drawable/tb_"
+				android:text="文字加密解密（转码）"
+				android:id="@+id/smalilayout3tilTextView5"
+				android:layout_weight="1.0"/>
+
+			<View
+				android:layout_height="1dp"
+				android:layout_width="16sp"/>
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:textSize="15sp"
+				android:gravity="center"
+				android:background="@drawable/tb_"
+				android:text="任务管理器非root"
+				android:id="@+id/smalilayout3tilTextView6"
+				android:layout_weight="1.0"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="52dp"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:layout_margin="6dp">
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:textSize="15sp"
+				android:background="@drawable/tb_"
+				android:gravity="center"
+				android:text="当前Activity活动"
+				android:id="@+id/smalilayout3tilTextView7"
+				android:layout_weight="1.0"/>
+
+			<View
+				android:layout_height="1dp"
+				android:layout_width="16sp"/>
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:background="@drawable/tb_"
+				android:gravity="center"
+				android:text="root操作-终端"
+				android:id="@+id/smalilayout3tilTextView8"
+				android:layout_weight="1.0"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="52dp"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:layout_margin="6dp">
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:textSize="15sp"
+				android:gravity="center"
+				android:background="@drawable/tb_"
+				android:text="Activity运行"
+				android:id="@+id/smalilayout3tilTextView9"
+				android:layout_weight="1.0"/>
+
+			<View
+				android:layout_height="1dp"
+				android:layout_width="16sp"/>
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:gravity="center"
+				android:background="@drawable/tb_"
+				android:text="应用管理器"
+				android:id="@+id/smalilayout3tilTextView12"
+				android:layout_weight="1.0"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="52dp"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:layout_margin="6dp"
+			android:visibility="gone">
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:textSize="15sp"
+				android:gravity="center"
+				android:text="分贝计"
+				android:background="@drawable/tb_"
+				android:id="@+id/smalilayout3tilTextView11"
+				android:layout_weight="1.0"/>
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:gravity="center"
+				android:text="图片加水印"
+				android:id="@+id/smalilayout3tilTextView10"
+				android:layout_weight="1.0"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="52dp"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:layout_margin="6dp">
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:textSize="15sp"
+				android:gravity="center"
+				android:background="@drawable/tb_"
+				android:text="游戏助手"
+				android:layout_weight="1.0"
+				android:id="@+id/smalilayout3tilTextView13"/>
+
+			<View
+				android:layout_height="1dp"
+				android:layout_width="16sp"/>
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:layout_weight="1.0"
+				android:visibility="invisible"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</RelativeLayout>
+

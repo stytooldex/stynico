@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:paddingLeft="?attr/dialogPreferredPadding"
+	android:paddingTop="@dimen/abc_dialog_padding_top_material"
+	android:paddingRight="?attr/dialogPreferredPadding"
+	android:orientation="vertical">
+
+	<android.support.design.widget.TextInputLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:hint="请输入打赏东西"
+			android:id="@+id/adxbilibiliEditText1"/>
+
+	</android.support.design.widget.TextInputLayout>
+
+	<android.support.design.widget.TextInputLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="18dp">
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:hint="请输入打赏金额"
+			android:id="@+id/adxbilibiliEditText2"/>
+
+	</android.support.design.widget.TextInputLayout>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="方法1：\n第一步，我懒的打字了"/>
+
+</LinearLayout>
+

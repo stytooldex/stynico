@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical">
+
+	<android.support.design.widget.AppBarLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbar"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="Wi-Fi密码查看器">
+
+	    </android.support.v7.widget.Toolbar>
+
+	</android.support.design.widget.AppBarLayout>
+	
+	<nico.styTool.EditTextWithDel
+	    android:id="@+id/et_search"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:hint="@string/search"
+	    android:maxLines="1"
+	    android:maxLength="20"
+	    android:inputType="text"
+	    android:textSize="16sp"/>
+
+	<ListView
+	    android:id="@+id/lv_wifi_list"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:divider="#00000000"
+	    android:descendantFocusability="blocksDescendants"
+	    android:scrollbars="none"/>
+
+	<TextView
+	    android:id="@+id/tv_nodata"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:text="没有root"
+	    android:gravity="center"
+	    android:textSize="18sp"
+	    android:visibility="gone"/>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
+

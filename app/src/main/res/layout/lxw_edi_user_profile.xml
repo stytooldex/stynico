@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+	android:layout_width="match_parent">
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical">
+
+		<android.support.design.widget.AppBarLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/toolbar"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay"
+                app:title="修改内容">
+
+			</android.support.v7.widget.Toolbar>
+
+		</android.support.design.widget.AppBarLayout>
+
+		<android.support.design.widget.TextInputLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="16dp">
+
+			<EditText
+				android:singleLine="true"
+				android:maxLength="15"
+				android:id="@+id/lxw_edi_user_profile_name"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:hint="文本"/>
+
+		</android.support.design.widget.TextInputLayout>
+
+	</LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
+

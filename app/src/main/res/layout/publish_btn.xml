@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="?attr/colorPrimary"
+	android:gravity="center_vertical"
+	android:orientation="horizontal">
+
+	<LinearLayout
+		android:id="@+id/id_lxw_push_btn_btnCamera"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginRight="10dip"
+		android:background="?attr/selectableItemBackground"
+		android:clickable="true"
+		android:gravity="center">
+
+		<ImageView
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:padding="8dip"
+			android:src="@drawable/ic_crop_original_black_48px"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:id="@+id/id_lxw_push_btn_btnEmotion"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="?attr/selectableItemBackground"
+		android:clickable="true"
+		android:layout_marginRight="10dip"
+		android:gravity="center">
+
+		<ImageView
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:padding="8dip"
+			android:src="@drawable/ic_sentiment_very_satisfied_black_48px"/>
+
+	</LinearLayout>
+
+	<View
+		android:layout_width="0dip"
+		android:layout_height="match_parent"
+		android:layout_weight="1"/>
+
+	<LinearLayout
+		android:id="@+id/btnSend"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:clickable="true"
+		android:gravity="center"
+		android:background="?attr/selectableItemBackground">
+
+		<ImageView
+			android:layout_width="40dip"
+			android:layout_height="40dip"
+			android:padding="8dip"
+			android:src="@drawable/ic_send_black_48px"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

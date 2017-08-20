@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:paddingLeft="?attr/dialogPreferredPadding"
+	android:paddingRight="?attr/dialogPreferredPadding"
+	android:paddingTop="@dimen/abc_dialog_padding_top_material">
+
+	<TextView
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="14dp"
+		android:text="下载查券宝免费支援"
+		android:textSize="18sp"/>
+
+	<TextView
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="妮媌一款（无广告，无收费）免费助手工具箱\n现在拥有超10万用户，感谢大家一直支持\n虽然妮媌免费，但是【服务器、API、后端云】上需要运维成本\n个人开发妮媌【由经费不足】我联系到朋友查劵宝作者\n查券宝是一款查询淘宝任意商品是否有优惠券的APP、可以直接一张图，或者几句话呀，可以查淘宝内部券的APP，可以省不少钱\n（优质良心无广告）\n只需要通过妮媌下载查券宝并且一定数量用户，一直使用查券宝就为妮媌承担运维成本"
+		android:textSize="14sp"/>
+
+	<ProgressBar
+		android:id="@+id/progressBar1"
+		style="?android:attr/progressBarStyleHorizontal"
+		android:layout_width="fill_parent"
+		android:padding="4dp"
+		android:max="100"
+		android:layout_height="wrap_content"/>
+
+	<Button
+		android:id="@+id/button4"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="下载查券宝并安装"/>
+
+</LinearLayout>
+

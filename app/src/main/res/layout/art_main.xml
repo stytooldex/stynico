@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:gravity="top|center">
+
+	<Button
+		android:text="开始清除"
+		android:id="@+id/btn_scanCache"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:background="@drawable/buttonshape"
+		android:textColor="#FFFFFF"/>
+
+	<Button
+		android:text="确定清除缓存"
+		android:id="@+id/btn_clearAll"
+		android:background="@drawable/buttonshape"
+		android:textColor="#FFFFFF"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:visibility="gone"/>
+
+	<TextView
+		android:id="@+id/tv_showAppInfo"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="4dp"/>
+
+	<TextView
+		android:layout_marginTop="10dp"
+		android:id="@+id/tv_appCache"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+
+	<ImageView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:src="@drawable/data_p"
+		android:scaleType="fitEnd"/>
+
+</LinearLayout>
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="fill_parent"
+	android:paddingLeft="?attr/dialogPreferredPadding"
+	android:paddingTop="@dimen/abc_dialog_padding_top_material"
+	android:paddingRight="?attr/dialogPreferredPadding"
+	android:orientation="vertical"
+	android:gravity="center">
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:hint="备忘录"
+		android:maxLength="120"
+		android:id="@+id/adddrEditText1"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="记一件事情-"
+		android:layout_marginTop="8dp"
+		android:textSize="18sp"/>
+
+</LinearLayout>
+

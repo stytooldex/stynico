@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+	android:layout_width="match_parent">
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical">
+
+		<android.support.design.widget.AppBarLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/toolbar"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay">
+
+			</android.support.v7.widget.Toolbar>
+
+		</android.support.design.widget.AppBarLayout>
+
+		<android.support.design.widget.TextInputLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1.0">
+
+			<android.support.v7.widget.AppCompatEditText
+				android:id="@+id/id_lxw_push_content"
+				android:longClickable="false"
+				android:imeOptions="flagNoExtractUi"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:layout_weight="1"
+				android:hint="说点什么吧……"
+				android:maxLength="200"
+				android:gravity="left|top"/>
+
+		</android.support.design.widget.TextInputLayout>
+
+		<HorizontalScrollView
+			android:id="@+id/id_lxw_push_scrollPicContent"
+			android:layout_width="match_parent"
+			android:layout_height="80dip"
+			android:visibility="gone">
+
+			<LinearLayout
+				android:id="@+id/id_lxw_push_layPicContent"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:layout_gravity="center_vertical"
+				android:orientation="horizontal"/>
+
+		</HorizontalScrollView>
+
+		<include
+			layout="@layout/publish_btn"
+			android:layout_width="match_parent"
+			android:layout_height="48dip"/>
+
+		<android.support.v4.view.ViewPager
+			android:layout_marginTop="8dip"
+			android:id="@+id/id_lxw_push_emoj_viewpager"
+			android:layout_width="match_parent"
+			android:layout_height="150dp"
+			android:visibility="gone"/>
+
+	</LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
+

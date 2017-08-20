@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#888888"
+	android:orientation="vertical"
+	android:gravity="center">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:layout_marginTop="25dp">
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:textColor="#ffffff"
+			android:background="#8F8F8F"
+			android:padding="5dp"
+			android:gravity="left|center"
+			android:layout_width="match_parent"
+			android:layout_weight="1.0"
+			android:id="@+id/activitylogButton1"/>
+
+		<Button
+			android:id="@+id/button_create"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:textColor="#ffffff"
+			android:text="创建房间"
+			android:background="#8F8F8F"
+			android:padding="5dp"
+			android:gravity="right|center"
+			android:layout_weight="1.0"/>
+
+	</LinearLayout>
+
+	<ListView
+		android:id="@+id/listview"
+		android:layout_width="fill_parent"
+		android:layout_height="match_parent"
+		android:dividerHeight="0dp"
+		android:divider="#00000000"
+		android:descendantFocusability="blocksDescendants"
+		android:scrollbars="none"
+		android:background="#8F8F8F"/>
+
+</LinearLayout>
+

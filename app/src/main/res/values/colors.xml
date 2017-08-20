@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#c65146</color>
+    <color name="colorAccent">#45B3B5</color>
+    <color name="colorAc">#45B3B5</color>
+    <color name="gainsboro">#cecece</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    
+    <color name="verColor">#800000</color>
+    <color name="sizeColor">#808080</color>
+    <color name="rippelColor">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="item_file_title_color">#424242</color>
+    <color name="empty_directory_hint">#c7c7c7</color>
+    <color name="compatibility_pressed_color">#1a000000</color>
+    <color name="compatibility_focus_color">#48000000</color>
+</resources>

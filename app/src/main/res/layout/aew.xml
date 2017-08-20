@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="fill_parent"
+	android:paddingLeft="?attr/dialogPreferredPadding"
+	android:paddingTop="@dimen/abc_dialog_padding_top_material"
+	android:paddingRight="?attr/dialogPreferredPadding"
+	android:orientation="vertical">
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:hint="请输入号码"
+		android:digits="1234567890"
+		android:maxLength="6"
+		android:id="@+id/aewEditText1"/>
+
+</LinearLayout>
+

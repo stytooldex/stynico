@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:layout_weight="1.0">
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:textSize="14sp"
+				android:text="百度搜索生成"
+				android:id="@+id/smalilayout1tilButton1"
+				android:gravity="center"
+				android:layout_weight="1.0"
+				android:background="@drawable/tb_"/>
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:textSize="14sp"
+				android:background="@drawable/tb_"
+				android:text="菜谱查询"
+				android:id="@+id/smalilayout1tilButton2"
+				android:gravity="center"
+				android:layout_weight="1.0"/>
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:textSize="14sp"
+				android:background="@drawable/tb_"
+				android:text="邮编查询"
+				android:id="@+id/smalilayout1tilButton3"
+				android:gravity="center"
+				android:layout_weight="1.0"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:layout_weight="1.0">
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:textSize="14sp"
+				android:text="手机号码查询"
+				android:layout_weight="1.0"
+				android:background="@drawable/tb_"
+				android:gravity="center"
+				android:id="@+id/smalilayout1tilButton4"/>
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:textSize="14sp"
+				android:gravity="center"
+				android:background="@drawable/tb_"
+				android:layout_weight="1.0"
+				android:text="身份证信息查询"
+				android:id="@+id/smalilayout1tilButton5"/>
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:textSize="14sp"
+				android:gravity="center"
+				android:background="@drawable/tb_"
+				android:text="手机号码查吉凶"
+				android:layout_weight="1.0"
+				android:id="@+id/smalilayout1tilButton6"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:layout_weight="1.0">
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:textSize="14sp"
+				android:gravity="center"
+				android:background="@drawable/tb_"
+				android:text="银行卡信息查询"
+				android:layout_weight="1.0"
+				android:id="@+id/smalilayout1tilButton7"/>
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_weight="1.0"
+				android:layout_width="match_parent"
+				android:textSize="14sp"
+				android:gravity="center"
+				android:background="@drawable/tb_"
+				android:text="万年历查询"
+				android:id="@+id/smalilayout1tilButton8"/>
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:gravity="center"
+				android:textSize="14sp"
+				android:background="@drawable/tb_"
+				android:text="老黄历信息查询"
+				android:layout_weight="1.0"
+				android:id="@+id/smalilayout1tilButton9"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:layout_weight="1.0">
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:background="@drawable/tb_"
+				android:gravity="center"
+				android:textSize="14sp"
+				android:layout_weight="1.0"
+				android:text="健康知识查询"
+				android:id="@+id/smalilayout1tilButton10"/>
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:layout_weight="1.0"
+				android:background="@drawable/tb_"
+				android:textSize="14sp"
+				android:gravity="center"
+				android:text="婚姻匹配查询"
+				android:id="@+id/smalilayout1tilButton11"/>
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:gravity="center"
+				android:text="历史上的今天查询"
+				android:background="@drawable/tb_"
+				android:textSize="14sp"
+				android:id="@+id/smalilayout1tilButton12"
+				android:layout_weight="1.0"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:layout_weight="1.0">
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:background="@drawable/tb_"
+				android:gravity="center"
+				android:textSize="14sp"
+				android:layout_weight="1.0"
+				android:text="周公解梦查询"
+				android:id="@+id/smalilayout1tilButton13"/>
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:textSize="14sp"
+				android:gravity="center"
+				android:background="@drawable/tb_"
+				android:text="成语查询"
+				android:id="@+id/smalilayout1tilButton14"
+				android:layout_weight="1.0"/>
+
+			<TextView
+				android:layout_height="match_parent"
+				android:background="@drawable/tb_"
+				android:layout_width="match_parent"
+				android:textSize="14sp"
+				android:layout_weight="1.0"
+				android:gravity="center"
+				android:text="新华字典查询"
+				android:id="@+id/smalilayout1tilButton15"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:layout_weight="1.0">
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:layout_weight="1.0"
+				android:background="@drawable/tb_"
+				android:textSize="14sp"
+				android:gravity="center"
+				android:text="算八字查询"
+				android:id="@+id/smalilayout1tilButton16"/>
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_weight="1.0"
+				android:layout_width="match_parent"
+				android:gravity="center"
+				android:textSize="14sp"
+				android:background="@drawable/tb_"
+				android:text="各省今日油价"
+				android:id="@+id/smalilayout1tilButton17"/>
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:textSize="14sp"
+				android:layout_weight="1.0"
+				android:background="@drawable/tb_"
+				android:gravity="center"
+				android:text="中国彩票开奖结果"
+				android:id="@+id/smalilayout1tilButton18"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:layout_weight="1.0">
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:layout_weight="1.0"
+				android:background="@drawable/tb_"
+				android:textSize="14sp"
+				android:gravity="center"
+				android:text="黄金数据查询"
+				android:id="@+id/smalilayout1tilButton21"/>
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_weight="1.0"
+				android:layout_width="match_parent"
+				android:textSize="14sp"
+				android:background="@drawable/tb_"
+				android:gravity="center"
+				android:text="汇率数据查询"
+				android:id="@+id/smalilayout1tilButton22"/>
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:gravity="center"
+				android:background="@drawable/tb_"
+				android:textSize="14sp"
+				android:text="天气预报查询"
+				android:id="@+id/smalilayout1tilButton23"
+				android:layout_weight="1.0"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:layout_weight="1.0">
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:textSize="14sp"
+				android:gravity="center"
+				android:background="@drawable/tb_"
+				android:text="微信精选查询"
+				android:layout_weight="1.0"
+				android:id="@+id/smalilayout1tilButton19"/>
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:textSize="14sp"
+				android:background="@drawable/tb_"
+				android:layout_weight="1.0"
+				android:gravity="center"
+				android:text="票房查询"
+				android:id="@+id/smalilayout1tilButton20"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</RelativeLayout>
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:paddingLeft="?attr/dialogPreferredPadding"
+	android:paddingTop="@dimen/abc_dialog_padding_top_material"
+	android:paddingRight="?attr/dialogPreferredPadding"
+	android:orientation="vertical"
+	android:gravity="center">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="110"
+		android:layout_width="wrap_content"
+		android:layout_marginBottom="16dp"
+		android:textSize="24sp"/>
+
+	<dump.u.CircleButton
+		android:layout_width="match_parent"
+		android:layout_height="74dp"
+		app:cb_color="#45B3B5"
+		android:src="@drawable/ic_gamepad_black_24dp"
+		android:id="@+id/ajkoCircleButton1"/>
+
+</LinearLayout>
+

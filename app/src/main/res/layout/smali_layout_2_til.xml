@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:layout_height="52dp"
+			android:layout_margin="6dp"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:visibility="gone">
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:textSize="15sp"
+				android:text="微信自动打招呼|自动加人"
+				android:gravity="center"
+				android:id="@+id/smalilayout2tilTextView13"
+				android:layout_weight="1.0"/>
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:layout_weight="1.0"
+				android:textSize="15sp"
+				android:text="拉圈圈|音乐|棒棒糖"
+				android:gravity="center"
+				android:id="@+id/smalilayout2tilTextView1"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="52dp"
+			android:layout_width="match_parent"
+			android:layout_margin="6dp"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:textSize="15sp"
+				android:layout_weight="1.0"
+				android:background="@drawable/tb_"
+				android:text="蓝色文字代码"
+				android:gravity="center"
+				android:id="@+id/smalilayout2tilTextView14"/>
+
+			<View
+				android:layout_height="1dp"
+				android:layout_width="16sp"/>
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:textSize="15sp"
+				android:background="@drawable/tb_"
+				android:layout_weight="1.0"
+				android:text="QQ空间蓝色动态"
+				android:gravity="center"
+				android:id="@+id/smalilayout2tilTextView2"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="52dp"
+			android:layout_margin="6dp"
+			android:layout_width="match_parent"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:layout_weight="1.0"
+				android:background="@drawable/tb_"
+				android:textSize="15sp"
+				android:text="强制发起临时会话"
+				android:gravity="center"
+				android:id="@+id/smalilayout2tilTextView3"/>
+
+			<View
+				android:layout_height="1dp"
+				android:layout_width="16sp"/>
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:textSize="15sp"
+				android:background="@drawable/tb_"
+				android:layout_weight="1.0"
+				android:text="假红包生成"
+				android:gravity="center"
+				android:id="@+id/smalilayout2tilTextView4"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="52dp"
+			android:layout_margin="6dp"
+			android:layout_width="match_parent"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:layout_weight="1.0"
+				android:background="@drawable/tb_"
+				android:textSize="15sp"
+				android:gravity="center"
+				android:text="抢红包辅助服务"
+				android:id="@+id/smalilayout2tilTextView5"/>
+
+			<View
+				android:layout_height="1dp"
+				android:layout_width="16sp"/>
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:textSize="15sp"
+				android:background="@drawable/tb_"
+				android:layout_weight="1.0"
+				android:gravity="center"
+				android:text="QQ名片赞"
+				android:id="@+id/smalilayout2tilTextView6"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="51dp"
+			android:layout_margin="6dp"
+			android:layout_width="match_parent"
+			android:orientation="horizontal">
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:textSize="15sp"
+				android:layout_weight="1.0"
+				android:background="@drawable/tb_"
+				android:gravity="center"
+				android:text="说说打赏"
+				android:id="@+id/smalilayout2tilTextView7"/>
+
+			<View
+				android:layout_height="1dp"
+				android:layout_width="16sp"/>
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:layout_weight="1.0"
+				android:gravity="center"
+				android:background="@drawable/tb_"
+				android:text="QQ|微信卡屏"
+				android:id="@+id/smalilayout2tilTextView8"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</RelativeLayout>
+

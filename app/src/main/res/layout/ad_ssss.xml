@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="fill_parent"
+	android:paddingLeft="?attr/dialogPreferredPadding"
+	android:paddingTop="@dimen/abc_dialog_padding_top_material"
+	android:paddingRight="?attr/dialogPreferredPadding"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="标题"
+		android:layout_width="wrap_content"
+		android:layout_marginLeft="6dp"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:hint="震惊！常念这样的诗句竟然能够增加寿命！"
+		android:textSize="15sp"
+		android:maxLength="48"
+		android:id="@+id/adssssEditText1"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:hint="内容：起个震惊标题就算是广告也没事！"
+		android:textSize="16sp"
+		android:maxLength="68"
+		android:id="@+id/adssssEditText2"/>
+
+</LinearLayout>
+

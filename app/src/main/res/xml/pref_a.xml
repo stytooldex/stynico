@@ -1,0 +1,28 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory>
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="E"
+            android:title="骰子作弊" />
+        <ListPreference
+            android:defaultValue="0"
+            android:dependency="E"
+            android:entries="@array/dice_num_options"
+            android:entryValues="@array/dice_num_values"
+            android:key="F"
+            android:title="骰子点数" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="G"
+            android:title="猜拳作弊" />
+        <ListPreference
+            android:defaultValue="0"
+            android:dependency="G"
+            android:entries="@array/mora_num_options"
+            android:entryValues="@array/mora_num_values"
+            android:key="LOVEvia"
+            android:title="猜拳点数" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

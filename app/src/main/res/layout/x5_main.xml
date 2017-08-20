@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:id="@+id/x5mainRelativeLayout1">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		xmlns:yangzhe="http://schemas.android.com/apk/res-auto"
+		xmlns:ripple="http://schemas.android.com/apk/res-auto"
+		android:gravity="center"
+		android:orientation="vertical"
+		android:id="@+id/x5mainLinearLayout1">
+
+		<RelativeLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:layout_weight="1.0">
+
+			<com.tencent.smtt.sdk.WebView
+				android:id="@+id/web_view"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"/>
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="vertical"
+				android:id="@+id/mainLinearLayout1"
+				android:visibility="gone"
+				android:background="@drawable/view"
+				android:layout_alignParentBottom="true">
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="horizontal">
+
+					<EditText
+						android:layout_height="wrap_content"
+						android:layout_width="match_parent"
+						android:hint="请输入网址"
+						android:imeOptions="actionSearch"
+						android:layout_weight="1.0"
+						android:singleLine="true"
+						android:id="@+id/mainEditText1"/>
+
+					<EditText
+						android:layout_height="wrap_content"
+						android:layout_width="match_parent"
+						android:layout_weight="1.0"
+						android:hint="搜索内容"
+						android:imeOptions="actionSearch"
+						android:singleLine="true"
+						android:gravity="center"
+						android:id="@+id/mainEditText2"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="horizontal"
+					android:layout_below="@id/mainLinearLayout1"
+					android:padding="6dp"
+					android:gravity="center">
+
+					<LinearLayout
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:orientation="vertical"
+						android:gravity="center">
+
+						<ImageView
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:src="@android:drawable/ic_menu_close_clear_cancel"
+							android:onClick="v3"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:text="停止/退出"
+							android:layout_width="wrap_content"
+							android:textSize="12sp"/>
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:orientation="vertical"
+						android:gravity="center"
+						android:layout_marginLeft="24dp">
+
+						<ImageView
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:src="@android:drawable/ic_menu_recent_history"
+							android:onClick="v2"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:text="书签/历史"
+							android:layout_width="wrap_content"
+							android:textSize="12sp"/>
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:orientation="vertical"
+						android:layout_marginLeft="24dp"
+						android:gravity="center">
+
+						<ImageView
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:src="@android:drawable/ic_menu_preferences"
+							android:onClick="v4"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:text="设置/关于"
+							android:layout_width="wrap_content"
+							android:textSize="12sp"/>
+
+					</LinearLayout>
+
+					<LinearLayout
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:orientation="vertical"
+						android:layout_marginLeft="24dp"
+						android:gravity="center">
+
+						<ImageView
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:src="@android:drawable/ic_menu_rotate"
+							android:onClick="v47"/>
+
+						<TextView
+							android:layout_height="wrap_content"
+							android:text="刷新"
+							android:layout_width="wrap_content"
+							android:textSize="12sp"/>
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+		</RelativeLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="vertical">
+
+			<RelativeLayout
+				android:layout_height="3dp"
+				android:layout_width="match_parent">
+
+				<dump.y.HProgressBarLoading
+					android:id="@+id/top_progress"
+					android:layout_width="match_parent"
+					android:layout_height="2dp"
+					yangzhe:max="100"
+					yangzhe:progressColor="#0AC416"
+					yangzhe:progressHeight="8"/>
+
+			</RelativeLayout>
+
+			<LinearLayout
+				android:layout_height="48dp"
+				android:layout_width="match_parent"
+				android:orientation="horizontal"
+				android:background="#FFFFFF">
+
+				<RelativeLayout
+					android:layout_height="match_parent"
+					android:layout_width="0dp"
+					android:layout_weight="1.0"
+					android:gravity="center"
+					android:onClick="b1">
+
+					<ImageView
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:background="@mipmap/left"/>
+
+				</RelativeLayout>
+
+				<RelativeLayout
+					android:layout_height="match_parent"
+					android:layout_width="0dp"
+					android:layout_weight="1.0"
+					android:gravity="center"
+					android:onClick="b2">
+
+					<ImageView
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:background="@mipmap/right"/>
+
+				</RelativeLayout>
+
+				<RelativeLayout
+					android:layout_height="match_parent"
+					android:layout_width="0dp"
+					android:layout_weight="1.0"
+					android:gravity="center"
+					android:onClick="b3">
+
+					<ImageView
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:background="@mipmap/set"/>
+
+				</RelativeLayout>
+
+				<RelativeLayout
+					android:layout_height="match_parent"
+					android:layout_width="0dp"
+					android:layout_weight="1.0"
+					android:gravity="center"
+					android:onClick="b4">
+
+					<ImageView
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:background="@mipmap/page"/>
+
+				</RelativeLayout>
+
+				<RelativeLayout
+					android:layout_height="match_parent"
+					android:layout_width="0dp"
+					android:layout_weight="1.0"
+					android:gravity="center"
+					android:onClick="b5">
+
+					<ImageView
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:background="@mipmap/home"/>
+
+				</RelativeLayout>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<android.support.design.widget.FloatingActionButton
+		android:id="@+id/lxw_id_push_helps_comment_float"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/ic_video_box"
+		android:layout_margin="16dp"
+		app:layout_anchor="@id/x5mainRelativeLayout1"
+		app:layout_anchorGravity="bottom|right|end"/>
+
+</RelativeLayout>
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<PreferenceScreen  
+    xmlns:android="http://schemas.android.com/apk/res/android">  
+    <PreferenceCategory
+		android:title="浏览器设置">
+		<CheckBoxPreference
+			android:key="if_0"
+			android:defaultValue="false"
+			android:title="-"/> 
+
+		<CheckBoxPreference
+			android:key="if_1"
+			android:defaultValue="true"
+			android:title="JavaScript"/> 
+
+		<CheckBoxPreference
+			android:key="if_2"
+			android:defaultValue="true"
+			android:title="地理定位"/> 
+
+		<CheckBoxPreference
+			android:key="if_3"
+			android:defaultValue="false"
+			android:title="强制缩放"/> 
+
+		<CheckBoxPreference
+			android:key="if_4"
+			android:defaultValue="true"
+			android:title="支持数据库"/> 
+
+		<CheckBoxPreference
+			android:key="if_5"
+			android:defaultValue="true"
+			android:title="自动加载图片"/>
+
+		<EditTextPreference  
+			android:key="if_7"  
+			android:title="浏览器标识"
+			android:dialogTitle="不填使用系统默认"/>
+    </PreferenceCategory>
+</PreferenceScreen>

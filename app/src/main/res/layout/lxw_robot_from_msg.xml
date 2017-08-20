@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_margin="8dp"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_vertical"
+		android:orientation="horizontal"
+		android:layout_marginLeft="10dp">
+
+		<nico.styTool.CircleImageView
+			android:id="@+id/lxw_id_robot_from_userimg"
+			android:layout_width="40dp"
+			android:layout_height="40dp"
+			android:src="@mipmap/ic_launcher"/>
+
+		<TextView
+			android:id="@+id/lxw_id_robot_from_msg"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="15sp"
+			android:background="@drawable/lxw_robot_chatfrom_msg_bg"
+			android:gravity="center_vertical"
+			android:text="luxin"
+			android:padding="10dp"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:fitsSystemWindows="true"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:gravity="top|center">
+
+		<android.support.design.widget.AppBarLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/toolbar"
+                app:popupTheme="@style/AppTheme.PopupOverlay"
+                android:background="?attr/colorPrimary">
+
+			</android.support.v7.widget.Toolbar>
+
+		</android.support.design.widget.AppBarLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:gravity="center">
+
+			<Button
+				android:layout_height="32dp"
+				android:layout_width="match_parent"
+				android:text="选择本地视频"
+				android:onClick="on1"
+				android:textSize="11sp"
+				android:layout_weight="1.0"
+				android:background="#00000000"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:onClick="on3"
+				android:layout_weight="1.0"
+				android:background="#00000000"
+				android:visibility="invisible"/>
+
+			<Button
+				android:layout_height="32dp"
+				android:layout_width="match_parent"
+				android:text="开始转换"
+				android:onClick="on2"
+				android:layout_weight="1.0"
+				android:textSize="11sp"
+				android:background="#00000000"/>
+
+		</LinearLayout>
+
+		<TextView
+			android:layout_height="wrap_content"
+		    android:text="妮媌"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="wrap_content"
+			android:layout_marginBottom="4dp"
+			android:id="@+id/mainTextView2"
+			android:layout_margin="10dp"/>
+
+	</LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
+

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	android:title="设置"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory
+		android:title="GIF合成选项">
+
+		<EditTextPreference
+			android:key="edit_dely"
+			android:title="持续时间"
+			android:inputType="numberDecimal"
+			android:summary="设置每帧图片默认的持续时间"
+			android:dialogTitle="设置持续时间(秒)"
+			android:defaultValue="0.5"/>
+
+
+		<CheckBoxPreference
+			android:key="cb_use_first_size"
+			android:title="设置生成图片的大小"
+			android:summaryOn="使用第一帧图片的大小"
+			android:summaryOff="使用指定图片的大小"
+			android:defaultValue="true"/>
+
+		<EditTextPreference
+			android:key="edit_pic_width"
+			android:inputType="number"
+			android:title="图片宽"
+			android:summary="设置生成的图片的宽"
+			android:dialogTitle="设置生成的图片的宽"
+			android:defaultValue="480"/>
+
+
+		<EditTextPreference
+			android:key="edit_pic_height"
+			android:title="图片高"
+			android:inputType="number"
+			android:summary="设置生成的图片的高"
+			android:dialogTitle="设置生成的图片的高"
+			android:defaultValue="800"/>
+
+
+		<EditTextPreference
+			android:key="edit_output_path1"
+			android:title="GIF保存路径"
+			android:summary="设置生成的图片的保存路径"
+			android:dialogTitle="设置路径"
+			android:defaultValue="/mnt/sdcard/Android/gif"/>
+
+
+
+	</PreferenceCategory>
+
+	<PreferenceCategory
+		android:title="GIF分解选项">
+
+		<!--<ListPreference
+		android:key="list4"
+		android:title="返回键作用"
+		android:summary="浏览器界面按下返回键触发事件"
+		android:dialogTitle="返回键作用"
+		android:entries="@array/entrie4"
+		android:entryValues="@array/entryValue3"
+		android:defaultValue="0"/>-->
+
+		<EditTextPreference
+			android:key="edit_output_path2"
+			android:title="图片输出路径"
+			android:summary="设置分解的图片的保存路径"
+			android:dialogTitle="设置路径"
+			android:defaultValue="/mnt/sdcard/Android/png"/>
+
+
+	</PreferenceCategory>
+
+</PreferenceScreen>
+
+<!--
+android:key  选项的名称或键,类似id
+android:title  选项的标题
+android:summary  选项的简短摘要
+android:entries  可将选项设置成列表项的文本
+android:entryValues  定义每个列表项的值。注意：每个列表项有一些文本和一个值。文本由entries定义，值由entryValues定义。
+android:dialogTitle  对话框的标题，在视图显示为模态对话框时使用
+android:defaultValue  项列表中选项的默认值
+-->

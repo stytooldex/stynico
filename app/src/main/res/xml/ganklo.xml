@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="if_a"
+        android:title="启动密码锁定" />
+
+    <EditTextPreference
+        android:dependency="if_a"
+        android:dialogTitle="设置密码"
+        android:key="if_b"
+        android:summary="创建密码"
+        android:title="设置密码" />
+    <CheckBoxPreference
+        android:key="if_styTool"
+        android:title="启动音效" />
+    <PreferenceCategory android:title="全局设置">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="if_c_1"
+            android:title="暗色主题"
+            android:visibility="gone" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="其他">
+        <CheckBoxPreference
+            android:key="if_c"
+            android:title="QQ名片赞二模式" />
+        <Preference
+            android:key="ioa"
+            android:title="查看更新日志" />
+        <Preference
+            android:key="iob"
+            android:title="捐款" />
+        <Preference
+            android:key="ioc"
+            android:title="分享" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

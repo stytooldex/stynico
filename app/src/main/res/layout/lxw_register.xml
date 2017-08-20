@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:gravity="center">
+
+	<EditText
+		android:id="@+id/lxw_id_reg_edi_username"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="请输入用户昵称"
+		android:textColorHint="#000000"
+		android:textColor="#000000"
+		android:singleLine="true"
+		android:maxLength="10"
+		android:layout_marginTop="80dp"/>
+
+	<EditText
+		android:id="@+id/lxw_id_reg_edi_email"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="8dp"
+		android:textColorHint="#000000"
+		android:textColor="#000000"
+		android:hint="请输入登录邮箱"
+		android:ems="10"
+		android:singleLine="true"
+		android:inputType="textEmailAddress"/>
+
+	<EditText
+		android:id="@+id/lxw_id_reg_edi_password"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="8dp"
+		android:textColorHint="#000000"
+		android:textColor="#000000"
+		android:textIsSelectable="false"
+		android:maxLength="16"
+		android:hint="密码"
+		android:inputType="textPassword"/>
+
+	<EditText
+		android:id="@+id/lxw_id_reg_edi_password_two"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="8dp"
+		android:textIsSelectable="false"
+		android:maxLength="16"
+		android:textColorHint="#000000"
+		android:textColor="#000000"
+		android:hint="再次输入密码"
+		android:inputType="textPassword"/>
+
+	<Button
+		android:id="@+id/lxw_id_reg_btn_register"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="16dp"
+		android:text="注册"
+		android:background="#00000000"/>
+
+</LinearLayout>
+

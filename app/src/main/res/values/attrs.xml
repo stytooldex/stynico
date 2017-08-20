@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AutofitTextView">
+        <!-- Minimum size of the text. -->
+        <attr name="minTextSize" format="dimension" />
+        <!-- Amount of precision used to calculate the correct text size to fit within its
+        bounds. Lower precision is more precise and takes more time. -->
+        <attr name="precision" format="float" />
+        <!-- Defines whether to automatically resize text to fit to the view's bounds. -->
+        <attr name="sizeToFit" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="hprogress">
+        <attr name="progress" format="integer"/>
+        <attr name="max" format="integer"/>
+        <attr name="progressHeight" format="integer"/>
+        <attr name="progressColor" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="WebView">
+        <attr name="x5" format="boolean"/>
+    </declare-styleable>
+	<declare-styleable name="bilibiliView">
+        <attr name="rv_alpha" format="integer" />
+        <attr name="rv_framerate" format="integer"/>
+        <attr name="rv_rippleDuration" format="integer"/>
+        <attr name="rv_zoomDuration" format="integer" />
+        <attr name="rv_color" format="color" />
+        <attr name="rv_centered" format="boolean" />
+        <attr name="rv_type" format="enum">
+            <enum name="simpleRipple" value="0"/>
+            <enum name="doubleRipple" value="1"/>
+            <enum name="rectangle" value="2" />
+        </attr>
+        <attr name="rv_ripplePadding" format="dimension" />
+        <attr name="rv_zoom" format="boolean" />
+        <attr name="rv_zoomScale" format="float" />
+    </declare-styleable>
+	<declare-styleable name="RollViewPager">
+        <attr name="rollviewpager_hint_mode">
+            <enum name="point" value="0" />
+            <enum name="number" value="1" />
+        </attr>
+        <attr name="rollviewpager_hint_gravity">
+            <enum name="left" value="0" />
+            <enum name="center" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+        <attr name="rollviewpager_hint_paddingRight" format="dimension"/>
+        <attr name="rollviewpager_hint_paddingLeft" format="dimension"/>
+        <attr name="rollviewpager_hint_paddingTop" format="dimension"/>
+        <attr name="rollviewpager_hint_paddingBottom" format="dimension"/>
+
+        <attr name="rollviewpager_play_delay" format="integer" />
+        <attr name="rollviewpager_hint_color" format="color" />
+        <attr name="rollviewpager_hint_alpha" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="CoolImageView">
+        <attr name="direction" format="string"/>
+    </declare-styleable>
+    <attr name="mfp_toolbar_theme" format="reference"/>
+    <declare-styleable name="CircleButton">
+        <attr name="cb_color" format="color" />
+        <attr name="cb_pressedRingWidth" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="MarqueeView">
+        <attr name="marqueeInterval" format="integer" />
+        <attr name="marqueeAnimDuration" format="integer" />
+        <attr name="marqueeAnimIn" format="reference" />
+        <attr name="marqueeAnimOut" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="Themes">
+        <attr name="numberProgressBarStyle" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="SlidingLayout">
+        <attr name="background_view" format="reference"/>
+        <attr name="sliding_mode" format="enum">
+            <enum name="both" value="0"/>
+            <enum name="top" value="1"/>
+            <enum name="bottom" value="2"/>
+        </attr>
+        <attr name="sliding_pointer_mode" format="enum">
+            <enum name="one" value="0"/>
+            <enum name="more" value="1"/>
+        </attr>
+        <attr name="top_max" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+    <string-array name="adBlockUrl">
+        <item>nsclick.baidu.com</item>
+        <item>pos.baidu.com</item>
+    </string-array>
+    <!-- style for MaterialRefreshLayout  -->
+    <declare-styleable name="MaterialRefreshLayout">
+        <attr name="overlay" format="boolean"/>
+        <!-- style for MaterialWaveView  -->
+        <attr name="wave_height_type" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="higher" value="1"/>
+        </attr>
+        <attr name="wave_color" format="color"/>
+        <attr name="wave_show" format="boolean"/>
+		<attr name="progress_current" format="integer"/>
+        <attr name="progress_max" format="integer"/>
+        <attr name="progress_unreached_color" format="color"/>
+        <attr name="progress_reached_color" format="color"/>
+        <attr name="progress_reached_bar_height" format="dimension"/>
+        <attr name="progress_unreached_bar_height" format="dimension"/>
+        <attr name="progress_text_offset" format="dimension"/>
+        <attr name="progress_colors" format="reference"/>
+        <attr name="progress_stoke_width" format="dimension"/>
+        <attr name="progress_backgroud_color" format="color"/>
+        <attr name="progress_show_arrow" format="boolean"/>
+        <attr name="progress_arrow_width" format="dimension"/>
+        <attr name="progress_arrow_height" format="dimension"/>
+        <attr name="progress_show_circle_backgroud" format="boolean"/>
+        <attr name="progress_value" format="integer"/>
+        <attr name="progress_max_value" format="integer"/>
+        <attr name="progress_text_size" format="dimension"/>
+        <attr name="progress_text_color" format="color"/>
+        <attr name="progress_text_visibility" format="enum">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+        </attr>
+        <attr name="progress_size_type" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="big" value="1" />
+        </attr>
+        <attr name="isLoadMore" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="SlideBottomPanel">
+        <attr name="sbp_background_layout" format="reference"/>
+        <attr name="sbp_title_height_no_display" format="dimension"/>
+        <attr name="sbp_panel_height" format="dimension"/>
+        <attr name="sbp_boundary" format="boolean"/>
+        <attr name="sbp_move_distance_trigger" format="dimension"/>
+        <attr name="sbp_animation_duration" format="integer"/>
+        <attr name="sbp_fade" format="boolean"/>
+        <attr name="sbp_hide_panel_title" format="boolean"/>
+    </declare-styleable>
+</resources>

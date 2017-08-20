@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:padding="16dp">
+
+	<TextView
+		android:id="@+id/item_longclicked_modifyFavorites"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColor="@android:color/white"
+		android:textSize="16sp"
+		android:text="修改书签"
+		android:gravity="center"/>
+
+	<TextView
+		android:id="@+id/item_longclicked_deleteFavorites"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColor="@android:color/white"
+		android:textSize="16sp"
+		android:text="删除书签"
+		android:layout_marginTop="16dp"/>
+
+</LinearLayout>
+

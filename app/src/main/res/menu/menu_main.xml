@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_tool"
+        android:orderInCategory="50"
+        android:title="Wi-Fi"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_edit"
+        android:orderInCategory="60"
+        android:title="Text"
+        app:showAsAction="always" />
+	<item
+        android:id="@+id/action_tb"
+        android:orderInCategory="70"
+        android:title="翻译"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="80"
+        android:title="设备信息"
+        app:showAsAction="always" />
+
+</menu>

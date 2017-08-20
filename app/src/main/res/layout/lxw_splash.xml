@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:fitsSystemWindows="true"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:background="?attr/colorPrimary"
+			android:orientation="vertical">
+
+			<android.support.design.widget.AppBarLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:theme="@style/AppTheme.AppBarOverlay">
+
+				<android.support.v7.widget.Toolbar
+					xmlns:app="http://schemas.android.com/apk/res-auto"
+					android:id="@+id/toolbar"
+					android:layout_width="match_parent"
+					android:layout_height="?attr/actionBarSize"
+					android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+					<android.support.design.widget.TabLayout
+						android:id="@+id/tab_layout"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						app:tabIndicatorColor="#aaffffff"
+						app:tabSelectedTextColor="#FFFFFF"
+						app:tabTextColor="#aaffffff"
+						app:tabTextAppearance="@style/TabLayoutTextAppearance"
+						android:background="#00000000"/>
+
+				</android.support.v7.widget.Toolbar>
+
+			</android.support.design.widget.AppBarLayout>
+
+		</LinearLayout>
+
+		<RelativeLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent">
+
+			<ImageView
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:background="@drawable/api_login_guide_bg"/>
+
+			<android.support.v4.view.ViewPager
+				android:id="@+id/viewpager"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"/>
+
+		</RelativeLayout>
+
+	</LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
+

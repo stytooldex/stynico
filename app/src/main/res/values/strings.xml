@@ -1,7 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">妮媌</string>
 
-    <string name="app_name">stynico</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="empty_directory_hint">Empty directory</string>
+    <string name="start_path_name">Device</string>
+    <string name="type_archive">Archive</string>
+    <string name="type_certificate">Certificate</string>
+    <string name="type_directory">Directory</string>
+    <string name="type_document">File</string>
+    <string name="type_drawing">Picture</string>
+    <string name="type_excel">Spreadsheet</string>
+    <string name="type_image">Image</string>
+    <string name="type_music">Music</string>
+    <string name="type_video">Video</string>
+    <string name="type_pdf">PDF document</string>
+    <string name="type_power_point">Presentation</string>
+    <string name="type_word">Document</string>
+    <string name="type_apk">APK</string>
+    <string name="delay_message">延迟0毫秒抢红包红包</string>
+    <string name="del_">略略略</string>
+    <string name="dex_apktool">复制成功</string>
+    <string name="mt_apktool">执行成功5分钟内查看</string>
+    <string name="dialog_enable_accessibility_msg">打开我的 \"辅助功能\" 后才能用哦.</string>
+    <string name="dialog_enable_accessibility_positive_btn">去设置</string>
+    <string name="dialog_enable_accessibility_Nagetive_btn">去设置</string>
+    <string name="is_running">%s 正在运行</string>
+    <string name="noti_action_pause">暂停</string>
+    <string name="noti_action_resume">恢复</string>
+    <string name="noti_action_stop">停止</string>
+    <string name="show_window">显示悬浮窗</string>
+    <string name="touch_to_open">点击设置.</string>
+    <string name="target_pname">com.tencent.mm</string>
+    <string name="target_pname_parallel">com.lbe.parallel</string>
+    <string name="notify_pattern">.*\\[微信红包\\].+</string>
+    <string name="chat_pattern">领取红包</string>
+    <string name="intro">解除（MIUI）授权25秒</string>
+    <string name="app_nam">妮媌-QQ抢红包</string>
+    <string name="start_server">启动服务</string>
+    <string name="stop_server">停止服务：挂后台需要自启服务</string>
+    <string name="notif_server_starting">远程管理服务已启动</string>
+    <string name="notif_title">远程管理服务正在运行</string>
+    <string name="storage_warning">外部存储不可用.</string>
+    <string name="wifi_state">WiFi状态</string>
+    <string name="instruction_pre">启动后可以从电脑端远程管理手机文件</string>
+    <string name="instruction">请在“我的电脑”地址栏中输入：</string>
+    <string name="no_wifi">无WiFi网络</string>
+    <string name="no_wifi_hint">需要WiFi网络</string>
 
+    <string name="battery_health_unknow" />
+    <string name="battery_health_good">健康：良好</string>
+    <string name="battery_health_overheat">健康：过热</string>
+    <string name="battery_health_overvoltage">健康：过压</string>
+    <string name="battery_plug_ac">AC连接充电</string>
+    <string name="battery_plug_usb">USB连接充电</string>
+    <string name="battery_plug_no" />
+    <string name="battery_temperature">温度：</string>
+    <string name="battery_voltage">电压：</string>
+    <string name="battery_technology_li">锂电池</string>
+    <string name="battery_technology_unknown" />
+    <string name="battery_status_unknown" />
+    <string name="battery_status_charging">正在充电</string>
+    <string name="battery_status_discharging">放电中</string>
+    <string name="battery_status_nocharging">状态：未充电</string>
+    <string name="battery_status_full">充满</string>
+    <string name="battery_level">电量：</string>
+    <string name="app_id">35</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">登录密码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">此电子邮件地址无效</string>
+    <string name="error_invalid_password">些密码太短</string>
+    <string name="error_field_required">还没有输入邮箱号</string>
+    <string-array name="dice_num_options">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="dice_num_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="mora_num_options">
+        <item>剪刀</item>
+        <item>石头</item>
+        <item>布</item>
+    </string-array>
+    <string-array name="mora_num_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="close_description">妮媌http://-自动抢红包</string>
 </resources>

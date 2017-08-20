@@ -1,0 +1,6 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+		<item name="android:textSize">14sp</item>
+    </style>
+</resources>

@@ -1,22 +1,563 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="nico.styTool" >
+    package="nico.styTool">
 
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
     <application
-        android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme"
-		android:resizeableActivity = "true">
+        android:largeHeap="true"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name" >
+            android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="nico.SimpleActivity"
+            android:clearTaskOnLaunch="false"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:excludeFromRecents="false" />
+        <activity
+            android:name=".QRCodeView"
+            android:theme="@style/MyDialogStyle" />
+
+        <activity
+            android:name=".FilePickerActivity"
+            android:theme="@style/MFP_BaseTheme" />
+        <activity
+            android:name=".Update"
+            android:label="记事本"
+            android:theme="@style/AppTheme.NoActionBar" />
+		<service android:name=".DownloadService">
+
+		</service>
+
+        <activity
+            android:name="nico.niconiconi"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProviderUi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Viewhtml"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".iApp"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".GankIoActivity" />
+        <activity android:name=".FileExplorer" />
+        <activity android:name=".buff_ext" />
+
+        <activity
+            android:name="dump.d.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".api_o" />
+
+        <service android:name=".FxService">
+
+        </service>
+
+        <activity
+            android:name=".ChatActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".CreateActivity" />
+        <activity android:name=".LoginF" />
+        <activity android:name=".KILL" />
+        <activity android:name=".smali_layout_apktool" />
+        <activity android:name=".smali_layout_shell" />
+        <activity
+            android:name=".l"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".lua_web"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
+
+        <activity android:name=".a" />
+        <activity android:name=".z">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="video/*" />
+            </intent-filter>
+        </activity>
+		<activity android:name="dump.x.Main">
+
+		</activity>
+		<activity android:name="dump.y.GankIoActivity"></activity>
+
+        <activity
+			android:theme="@style/Aeme"
+			android:excludeFromRecents="true"
+            android:name="dump.y.x5_MainActivity"
+			android:windowSoftInputMode="stateHidden|adjustResize"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="妮哩萌萌">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:scheme="about" />
+                <data android:scheme="javascript" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="file" />
+                <data android:scheme="inline" />
+                <data android:mimeType="text/html" />
+                <data android:mimeType="text/mht" />
+                <data android:mimeType="text/plain" />
+                <data android:mimeType="application/xhtml+xml" />
+                <data android:mimeType="application/vnd.wap.xhtml+xml" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.WEB_SEARCH" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+
+		<activity
+			android:name="dump.y.FavAndHisActivity"
+			android:theme="@style/Aeme">
+
+		</activity>
+		<activity
+			android:name="com.tencent.smtt.sdk.VideoActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden"
+			android:exported="false"
+			android:launchMode="singleTask"
+			android:alwaysRetainTaskState="true">
+			<intent-filter>
+				<action android:name="com.tencent.smtt.tbs.video.PLAY" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+
+
+        <activity android:name=".zip">
+
+
+        </activity>
+        <activity android:name=".MeiziActivity" />
+        <activity android:name=".szip" />
+
+        <activity android:name="nico.styTool.SettingsActivity">
+
+        </activity>
+
+        <activity android:name=".MainActivity" />
+
+
+        <activity android:name="dump.w.WeiboListActivity" />
+
+        <activity
+            android:name="dump.w.CommentListActivity_"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".NativeConfigStore"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SkinEngine"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WupHexUtil"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".app_th"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".io_styTool" />
+
+        <activity
+            android:name=".UserProfileActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EdiUserProfileActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LxwBlogActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".jni_string"
+            android:label="查看当前Activity" />
+        <activity
+            android:name=".RobotChatActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".sizeActivity"
+            android:theme="@style/AppTheme.TransparentActivity">
+
+        </activity>
+
+        <activity
+            android:name=".CustomAPIActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/custom_api"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <activity
+            android:name=".CustomAPIFullManualActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/custom_api_full_manual_input"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <activity
+            android:name=".CustomAPISemiAutomaticActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/custom_api_Semi_automatic_mode"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".QueryByCityNameActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="天气"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <activity
+            android:name=".CookAPIActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/cook_api"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <activity
+            android:name=".MenuListActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <activity
+            android:name=".PostcodeAPIActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/postcode_api"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <activity
+            android:name=".PostcodeToAddressActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/postcode_to_address"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <activity
+            android:name=".AddressToPostcodeActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/address_to_postcode"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <activity
+            android:name=".MobileAPIActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/mobile_api"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <activity
+            android:name=".IDCardAPIActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/idcard_api"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <activity
+            android:name=".UcacheAPIActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/ucache_api"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <activity
+            android:name=".UcachePutActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/ucache_api_put"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <activity
+            android:name=".UcacheGetActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/ucache_api_get"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <activity
+            android:name=".MobileLuckyAPIActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/mobilelucky_api"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <activity
+            android:name=".BankCardAPIActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/bankcard_api"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <activity
+            android:name=".CalendarAPIActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/calendar_api"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <activity
+            android:name=".LaoHuangLiAPIActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/laohuangli_api"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <activity
+            android:name=".HealthAPIActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/health_api"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <activity
+            android:name=".MarriageAPIActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/marriage_api"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <activity
+            android:name=".HistoryAPIActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/history_api"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <activity
+            android:name=".DreamAPIActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/dream_api"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <activity
+            android:name=".IdiomAPIActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/idiom_api"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <activity
+            android:name=".DictionaryAPIActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/dictionary_api"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <activity
+            android:name=".HoroscopeAPIActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/horoscope_api"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <activity
+            android:name=".OilPriceAPIActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/oilprice_api"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <activity
+            android:name=".LotteryAPIActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/lottery_api"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <activity
+            android:name=".WxArticleAPIActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/wxarticle_api"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <activity
+            android:name=".WxArticleListAPIActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <activity
+            android:name=".BoxOfficeAPIActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/boxoffice_api"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <activity
+            android:name=".GoldAPIActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/gold_api"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <activity
+            android:name=".ExchangeAPIActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/exchange_api"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <activity
+            android:name=".QueryRMBQuotationByBank"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/exchange_api_title_rmb_quotation"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <activity
+            android:name=".QueryAllCurrency"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/exchange_api_title_currency"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <activity
+            android:name=".QueryExchangeRateByCode"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/exchange_api_title_by_code"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <activity
+            android:name=".QueryRealTimeActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/exchange_api_title_real_time"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".wlflActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".gifa"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+
+        <activity
+            android:name=".HCActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name="nico.styTool.SettingActivity" />
+
+        <activity
+            android:name=".FJActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FileList"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".htmlActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".lua"
+            android:label="QQ屏幕" />
+        <activity android:name=".ChangeTheme" />
+
+        <service
+            android:name=".SeText"
+            android:enabled="true"
+            android:exported="true"
+            android:label="妮媌-QQ自动点赞"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/y" />
+        </service>
+        <service android:name=".Reg" />
+        <service
+            android:name=".via_webviwe"
+            android:enabled="true"
+            android:label="妮媌-解除MIUI授权"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/pr_via" />
+        </service>
+
+        <service
+            android:name=".dex_smali"
+            android:label="@string/app_nam"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@layout/activity_svip" />
+        </service>
+        <!-- BmobPush start -->
+
+        <service
+            android:name=".WatchingService"
+            android:enabled="@bool/use_watching_service" />
+        <service
+            android:name=".WatchingAccessibilityService"
+            android:description="@string/app_name"
+            android:enabled="@bool/use_accessibility_service"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/accessibility" />
+        </service>
+
+        <service android:name=".S_MVP" />
+        <service android:name=".msf_shell" />
+
+        <receiver android:name=".NotificationActionReceiver">
+            <intent-filter>
+                <action android:name="nico.styTool.ACTION_NOTIFICATION_RECEIVER" />
+            </intent-filter>
+        </receiver>
+        <!-- Xposed 环境支持 -->
+        <meta-data
+            android:name="xposedmodule"
+            android:value="false" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="仅此测试【请不要打勾】" />
+        <meta-data
+            android:name="xposedminversion"
+            android:value="30" />
     </application>
+
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
 
 </manifest>

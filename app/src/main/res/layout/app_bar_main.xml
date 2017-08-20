@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent">
+
+
+	<RelativeLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent">
+
+		<ImageView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:src="@drawable/lockscreen_112"
+			android:scaleType="center"/>
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="vertical"
+			android:gravity="bottom|right|center">
+
+			<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="46dp"
+				android:layout_marginLeft="8dp"
+				android:layout_marginRight="8dp"
+				android:background="@drawable/standard_button_bg"
+				android:gravity="center"
+				android:orientation="horizontal">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:clickable="true"
+					android:gravity="center"
+					android:onClick="Bin6"
+					android:padding="10dp"
+					android:text="查看全部应用" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:clickable="true"
+					android:gravity="center"
+					android:onClick="Bin1"
+					android:padding="10dp"
+					android:text="应用设置" />
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="vertical"
+				android:padding="6dp"
+				android:gravity="center"
+				android:layout_marginTop="10dp"
+				android:background="@drawable/standard_button_bg"
+				android:layout_marginLeft="8dp"
+				android:layout_marginRight="8dp">
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="horizontal"
+					android:layout_marginBottom="8dp"
+					android:gravity="right|center">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="登录@Personal works"
+						android:layout_width="wrap_content"
+						android:gravity="center"
+						android:textColor="#A8A8A8"
+						android:id="@+id/appbarmainTextView3"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="无限记事本"
+						android:clickable="true"
+						android:layout_width="match_parent"
+						android:gravity="right|center"
+						android:layout_weight="1.0"
+						android:onClick="A1"
+						android:layout_marginRight="16dp"/>
+
+				</LinearLayout>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:padding="4dp"
+					android:clickable="true"
+					android:id="@+id/appbarmainTextView1"
+					android:onClick="Bin7"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="vertical"
+				android:padding="12dp"
+				android:layout_marginTop="8dp"
+                android:background="@drawable/standard_button_bg"
+				android:layout_marginLeft="8dp"
+				android:layout_marginRight="8dp">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="联网应用"
+					android:layout_width="wrap_content"
+					android:layout_marginBottom="8dp"/>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="horizontal">
+
+					<nico.styTool.AutofitTextView
+						android:singleLine="true"
+						android:layout_height="wrap_content"
+						android:text="免费看vip付费电视"
+						android:layout_width="match_parent"
+						android:clickable="true"
+						android:onClick="bxp"
+						android:layout_weight="1.0"
+						android:gravity="center"
+						android:drawableTop="@drawable/as_0"/>
+
+					<View
+						android:layout_height="1dp"
+						android:layout_width="3dp"/>
+
+					<nico.styTool.AutofitTextView
+						android:singleLine="true"
+						android:layout_height="wrap_content"
+						android:text="以图搜图"
+						android:clickable="true"
+						android:onClick="A4"
+						android:layout_width="match_parent"
+						android:layout_weight="1.0"
+						android:gravity="center"
+						android:drawableTop="@drawable/as_1"/>
+
+					<View
+						android:layout_height="1dp"
+						android:layout_width="3dp"/>
+
+					<nico.styTool.AutofitTextView
+						android:singleLine="true"
+						android:onClick="b520"
+						android:clickable="true"
+						android:layout_height="wrap_content"
+						android:text="一键清理运行（Ram）"
+						android:layout_width="match_parent"
+						android:layout_weight="1.0"
+						android:gravity="center"
+						android:drawableTop="@drawable/as_2"/>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="vertical"
+				android:padding="12dp"
+				android:layout_marginTop="8dp"
+				android:background="@drawable/standard_button_bg"
+				android:layout_marginLeft="8dp"
+				android:layout_marginRight="8dp">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="推荐常用应用"
+					android:layout_width="wrap_content"
+					android:layout_marginBottom="8dp"/>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="horizontal">
+
+					<nico.styTool.AutofitTextView
+						android:singleLine="true"
+						android:layout_height="wrap_content"
+						android:text="动态壁纸（video）"
+						android:layout_width="match_parent"
+						android:clickable="true"
+						android:onClick="Bin5"
+						android:layout_weight="1.0"
+						android:gravity="center"
+						android:drawableTop="@drawable/as_3"/>
+
+					<View
+						android:layout_height="1dp"
+						android:layout_width="3dp"/>
+
+					<nico.styTool.AutofitTextView
+						android:singleLine="true"
+						android:layout_height="wrap_content"
+						android:text="女闺蜜Ai智障"
+						android:clickable="true"
+						android:onClick="Bin4"
+						android:layout_width="match_parent"
+						android:layout_weight="1.0"
+						android:gravity="center"
+						android:drawableTop="@drawable/as_4"/>
+
+					<View
+						android:layout_height="1dp"
+						android:layout_width="3dp"/>
+
+					<nico.styTool.AutofitTextView
+						android:singleLine="true"
+						android:layout_height="wrap_content"
+						android:text="加入妮媌官方群"
+						android:layout_width="match_parent"
+						android:clickable="true"
+						android:onClick="Bin2"
+						android:layout_weight="1.0"
+						android:gravity="center"
+						android:drawableTop="@drawable/as_5"/>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="vertical"
+				android:padding="12dp"
+                android:layout_marginTop="8dp"
+				android:background="@drawable/standard_button_bg"
+				android:layout_marginLeft="8dp"
+				android:layout_marginRight="8dp"
+				android:layout_marginBottom="12dp">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="图片视频应用"
+					android:layout_width="wrap_content"
+					android:layout_marginBottom="8dp"/>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="horizontal">
+
+					<nico.styTool.AutofitTextView
+						android:singleLine="true"
+						android:layout_height="wrap_content"
+						android:text="视频提取音乐"
+						android:layout_width="match_parent"
+						android:clickable="true"
+						android:onClick="A2"
+						android:layout_weight="1.0"
+						android:gravity="center"
+						android:drawableTop="@drawable/as_6"/>
+
+					<View
+						android:layout_height="1dp"
+						android:layout_width="3dp"/>
+
+					<nico.styTool.AutofitTextView
+						android:singleLine="true"
+						android:layout_height="wrap_content"
+						android:text="视频校验修改"
+						android:clickable="true"
+						android:onClick="A3"
+						android:layout_width="match_parent"
+						android:layout_weight="1.0"
+						android:gravity="center"
+						android:drawableTop="@drawable/as_7"/>
+
+					<View
+						android:layout_height="1dp"
+						android:layout_width="3dp"/>
+
+					<nico.styTool.AutofitTextView
+						android:singleLine="true"
+						android:layout_height="wrap_content"
+						android:clickable="true"
+						android:text="视频转换动图"
+						android:layout_width="match_parent"
+						android:layout_weight="1.0"
+						android:gravity="center"
+						android:drawableTop="@drawable/as_8"
+						android:onClick="Bin3"/>
+
+					<View
+						android:layout_height="1dp"
+						android:layout_width="3dp"/>
+
+					<nico.styTool.AutofitTextView
+						android:singleLine="true"
+						android:clickable="true"
+						android:layout_height="wrap_content"
+						android:text="动态图片分解"
+						android:layout_width="match_parent"
+						android:layout_weight="1.0"
+						android:gravity="center"
+						android:drawableTop="@drawable/as_9"/>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</RelativeLayout>
+
+</LinearLayout>
+

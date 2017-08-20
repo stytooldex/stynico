@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="android_gifa">
+
+
+	ฏ๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎nฏ๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎๎</string>
+    <string name="android_gifb">
+
+
+	ด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็nด้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็็็็็้้้้้็็็็็้้้้้้้้็</string>
+    <string name="android_gifc">
+
+
+	ۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖ n ۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۣۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖ </string>
+
+
+    <string name="custom_api">2284467793</string>
+    <string name="cook_api">菜谱查询</string>
+    <string name="postcode_api">邮编查询</string>
+    <string name="mobile_api">手机号码查询</string>
+    <string name="error_raise">电波无法达成共识</string>
+    <string name="sucess">成功</string>
+    <string name="enter_phone_number">请输入手机号码</string>
+    <string name="search">查询</string>
+    <string name="path">地址</string>
+    <string name="enter_api_path">请输入地址</string>
+    <string name="param">参数</string>
+    <string name="key_of_param">参数名称</string>
+    <string name="value_of_param">参数值</string>
+    <string name="file">文件</string>
+    <string name="name_of_file">文件名称</string>
+    <string name="path_of_file">文件路径</string>
+    <string name="add_param">+ 参数</string>
+    <string name="add_file">+ 文件</string>
+    <string name="remove_param">- 参数</string>
+    <string name="remove_file">- 文件</string>
+    <string name="postcode_to_address">邮编转地址</string>
+    <string name="address_to_postcode">地址转邮编</string>
+    <string name="enter_postcode">请输入邮编</string>
+    <string name="postcode_is_x">%1$s%2$s%3$s%4$s的邮编为: %5$s</string>
+    <string name="idcard_api">身份证信息查询</string>
+    <string name="enter_id_card_number">请输入身份证号码</string>
+    <string name="custom_api_full_manual_input">全手工输入</string>
+    <string name="custom_api_Semi_automatic_mode">半自动方式</string>
+    <string name="custom_api_interface" />
+    <string name="enter_id_table">请输入table</string>
+    <string name="enter_id_key">请输入key</string>
+    <string name="enter_id_value">请输入value</string>
+    <string name="ucache_api">k-v存取</string>
+    <string name="ucache_api_put">Put</string>
+    <string name="ucache_api_get">Get</string>
+    <string name="entry_luckyphone">请输入手机号码</string>
+    <string name="mobilelucky_api">手机号码查吉凶</string>
+    <string name="entry_bankcard_numder">请输入银行卡号</string>
+    <string name="bankcard_api">银行卡信息查询</string>
+    <string name="calendar_api">万年历查询</string>
+    <string name="laohuangli_api">老黄历信息查询</string>
+    <string name="enter_id_health">请输入关键字</string>
+    <string name="health_api">健康知识查询</string>
+    <string name="marriage_api">婚姻匹配查询</string>
+    <string name="history_api">历史上的今天查询</string>
+    <string name="enter_id_dream">请输入梦源关键字</string>
+    <string name="dream_api">周公解梦查询</string>
+    <string name="enter_id_idiom">请输入成语（全称）</string>
+    <string name="idiom_api">成语查询</string>
+    <string name="enter_id_dictionary">请输入汉字</string>
+    <string name="dictionary_api">新华字典查询</string>
+    <string name="horoscope_api">算八字查询</string>
+    <string name="oilprice_api">各省今日油价</string>
+    <string name="lottery_api">中国彩票开奖结果</string>
+    <string name="wxarticle_api">微信精选查询</string>
+    <string name="boxoffice_api">票房查询</string>
+    <string name="gold_api">黄金数据查询</string>
+    <string name="exchange_api">汇率数据查询</string>
+
+    <string name="weather_api_title_weather">天气</string>
+    <string name="weather_api_title_temperature">温度</string>
+    <string name="weather_api_title_humidity">湿度</string>
+    <string name="weather_api_title_wind">风向</string>
+    <string name="weather_api_title_sunrise">日出时间</string>
+    <string name="weather_api_title_sunSet">日落时间</string>
+    <string name="weather_api_title_airCondition">空气质量</string>
+    <string name="weather_api_title_pollutionIndex">空气质量指数</string>
+    <string name="weather_api_title_cold_index">感冒指数</string>
+    <string name="weather_api_title_dressing_index">穿衣指数</string>
+    <string name="weather_api_title_exercise_index">运动指数</string>
+    <string name="weather_api_title_wash_index">洗衣指数</string>
+    <string name="weather_api_title_crawlerTime">更新时间</string>
+    <string name="weather_api_title_dayTime">白天天气</string>
+    <string name="weather_api_title_night">夜晚天气</string>
+
+    <string name="mobile_api_title_province">省份</string>
+    <string name="mobile_api_title_city">城市</string>
+    <string name="mobile_api_title_cityCode">城市区号</string>
+    <string name="mobile_api_title_mobileNumber">手机号前7位</string>
+    <string name="mobile_api_title_zipCode">邮编</string>
+    <string name="mobile_api_title_operator">运营商信息</string>
+
+    <string name="postcode_api_title_district">区县</string>
+    <string name="postcode_api_title_address">详细地址</string>
+
+    <string name="cook_api_title_category1">菜谱</string>
+    <string name="cook_api_title_category2">分类</string>
+    <string name="cook_api_title_category3">子类</string>
+    <string name="cook_api_title_ingredients">配料</string>
+    <string name="cook_api_title_method">步骤</string>
+
+    <string name="idcard_api_title_area">所属地区</string>
+    <string name="idcard_api_title_birthday">生日</string>
+    <string name="idcard_api_title_sex">性别</string>
+
+    <string name="ucache_api_title_key">Key</string>
+    <string name="ucache_api_title_value">Value</string>
+
+    <string name="mobile_api_title_conclusion">吉凶描述</string>
+
+    <string name="bankcard_api_title_bank">银行</string>
+    <string name="bankcard_api_title_bin">bin码</string>
+    <string name="bankcard_api_title_binNumber">bin码长度</string>
+    <string name="bankcard_api_title_cardName">卡名</string>
+    <string name="bankcard_api_title_cardNumber">卡号长度</string>
+    <string name="bankcard_api_title_cardType">卡片类型</string>
+
+    <string name="calendar_api_title_zodiac">生肖</string>
+    <string name="calendar_api_title_avoid">不宜/忌</string>
+    <string name="calendar_api_title_date">日期</string>
+    <string name="calendar_api_title_holiday">节假日</string>
+    <string name="calendar_api_title_lunar">农历日期</string>
+    <string name="calendar_api_title_lunarYear">阴历年份</string>
+    <string name="calendar_api_title_suit">宜</string>
+    <string name="calendar_api_title_weekday">星期</string>
+
+    <string name="laohuangli_api_title_avoid">不宜/忌</string>
+    <string name="laohuangli_api_title_jishen">吉煞</string>
+    <string name="laohuangli_api_title_suit">宜</string>
+    <string name="laohuangli_api_title_xiongshen">凶煞</string>
+    <string name="laohuangli_api_title_date">阳历日期</string>
+    <string name="laohuangli_api_title_lunar">阳历日期</string>
+
+    <string name="health_api_title_titile">文章标题</string>
+    <string name="health_api_title_content">文章内容</string>
+    <string name="health_api_example">红豆</string>
+
+    <string name="marriage_api_title_man">男:</string>
+    <string name="marriage_api_title_women">女:</string>
+    <string name="marriage_api_title_year">年</string>
+    <string name="marriage_api_title_month">月</string>
+    <string name="marriage_api_title_day">日</string>
+    <string name="marriage_api_title_hour">时</string>
+    <string name="marriage_api_title_marriageType">匹配结果</string>
+    <string name="marriage_api_title_menLunar">男阴历</string>
+    <string name="marriage_api_title_menLunarTime">男农历</string>
+    <string name="marriage_api_title_menMarriage">男类型</string>
+    <string name="marriage_api_title_menZodiac">男属相</string>
+    <string name="marriage_api_title_womanLunar">女阴历</string>
+    <string name="marriage_api_title_wonmanLuarTime">女农历</string>
+    <string name="marriage_api_title_wonmanMarriage">女类型</string>
+    <string name="marriage_api_title_wonmanZodiac">女属相</string>
+
+    <string name="history_api_title_date">日期</string>
+    <string name="history_api_title_month">月</string>
+    <string name="history_api_title_day">日</string>
+    <string name="history_api_title_title">标题</string>
+    <string name="history_api_title_event">事件</string>
+
+    <string name="dream_api_title_name">梦源</string>
+    <string name="dream_api_title_detail">解说</string>
+    <string name="dream_api_example">海</string>
+
+    <string name="idiom_api_title_name">成语</string>
+    <string name="idiom_api_title_pinyin">拼音</string>
+    <string name="idiom_api_title_pretation">释义</string>
+    <string name="idiom_api_title_source">出自</string>
+    <string name="idiom_api_title_sample">示例</string>
+    <string name="idiom_api_title_sampleFrom">示例出自</string>
+
+    <string name="dictionary_api_title_name">汉字</string>
+    <string name="dictionary_api_title_wubi">五笔</string>
+    <string name="dictionary_api_title_bushou">首部</string>
+    <string name="dictionary_api_title_bihuaWithBushou">去部首后笔画数</string>
+    <string name="dictionary_api_title_pinyin">拼音</string>
+    <string name="dictionary_api_title_brief">简介</string>
+    <string name="dictionary_api_title_detail">明细</string>
+
+    <string name="horoscope_api_title_year">年</string>
+    <string name="horoscope_api_title_month">月</string>
+    <string name="horoscope_api_title_day">日</string>
+    <string name="horoscope_api_title_hour">时</string>
+    <string name="horoscope_api_title_horoscope">八字信息</string>
+    <string name="horoscope_api_title_lunar">阴历日期</string>
+    <string name="horoscope_api_title_lunarDate">农历时间</string>
+    <string name="horoscope_api_title_zodiac">生肖</string>
+
+    <string name="oilprice_api_title_province">省份</string>
+    <string name="oilprice_api_title_dieselOil0">0号柴油</string>
+    <string name="oilprice_api_title_gasoline90">90号汽油</string>
+    <string name="oilprice_api_title_gasoline93">93号汽油</string>
+    <string name="oilprice_api_title_gasoline97">97号汽油</string>
+
+    <string name="lottery_api_title_list">彩种列表</string>
+    <string name="lottery_api_title_result">开奖结果</string>
+    <string name="lottery_api_title_datetime">时间：%s</string>
+    <string name="lottery_api_title_name">彩种：%s</string>
+    <string name="lottery_api_title_sales">销售金额：%s</string>
+    <string name="lottery_api_title_pool">奖池金额：%s</string>
+    <string name="lottery_api_title_period">期次：%s</string>
+    <string name="lottery_api_title_lottery_number">开奖号码：%s</string>
+    <string name="lottery_api_title_awards">奖项</string>
+    <string name="lottery_api_title_award_number">中奖注数</string>
+    <string name="lottery_api_title_award_price">中奖金额</string>
+    <string name="lottery_api_title_type">奖项类型</string>
+
+    <string name="wxarticle_api_title_list">微信精选之%s</string>
+    <string name="wxarticle_api_title_category_cid">分类Id：</string>
+    <string name="wxarticle_api_title_category_name">分类名称：</string>
+    <string name="wxarticle_api_title_id">文章ID：</string>
+    <string name="wxarticle_api_title_cid">分类ID：</string>
+    <string name="wxarticle_api_title_title">文章标题：</string>
+    <string name="wxarticle_api_title_subtitle">文章副标题：</string>
+    <string name="wxarticle_api_title_sourceurl">文章来源：</string>
+    <string name="wxarticle_api_title_pubtime">文章的发布时间：</string>
+    <string name="wxarticle_api_title_thumbnails">导航缩略图URL（多个图片用$分割）：</string>
+
+    <string name="boxoffice_api_btn_day_cn">实时票房(内地)</string>
+    <string name="boxoffice_api_btn_day_hk">实时票房(香港)</string>
+    <string name="boxoffice_api_btn_day_us">实时票房(北美)</string>
+    <string name="boxoffice_api_btn_week_cn">周票房(内地)</string>
+    <string name="boxoffice_api_btn_week_hk">周票房(香港)</string>
+    <string name="boxoffice_api_btn_week_us">周票房(北美)</string>
+    <string name="boxoffice_api_btn_weekend_cn">周末票房(内地)</string>
+    <string name="boxoffice_api_btn_weekend_hk">周末票房(香港)</string>
+    <string name="boxoffice_api_btn_weekend_us">周末票房(北美)</string>
+    <string name="boxoffice_api_title_result">票房结果</string>
+    <string name="boxoffice_api_title_day_cur_cn">当日票房(单位/万元)：</string>
+    <string name="boxoffice_api_title_name_cn">电影名称：</string>
+
+    <string name="boxoffice_api_title_days_cn">内地已上映天数：</string>
+    <string name="boxoffice_api_title_days_hk">在香港已上映天数：</string>
+    <string name="boxoffice_api_title_weeks_us">在北美已上映的周数：</string>
+
+    <string name="boxoffice_api_title_sum_cn">内地的总票房(单位/万元)：</string>
+    <string name="boxoffice_api_title_sum_hk">香港的总票房(单位/万港元)：</string>
+    <string name="boxoffice_api_title_sum_us">北美的总票房(单位/万美元)：</string>
+
+    <string name="boxoffice_api_title_week_sum_cn">内地的周票房(单位/万元)：</string>
+    <string name="boxoffice_api_title_week_sum_hk">香港的本周票房(单位/万港元)：</string>
+    <string name="boxoffice_api_title_week_period_cn">内地周票房的周期：</string>
+    <string name="boxoffice_api_title_week_period_hk">香港周票房的周期：</string>
+
+    <string name="boxoffice_api_title_weekend_sum_us">北美的上周末票房(单位/万美元)：</string>
+    <string name="boxoffice_api_title_weekend_sum_cn">内地的上周末票房(单位/万)：</string>
+    <string name="boxoffice_api_title_weekend_period_us">北美的上周末周期：</string>
+    <string name="boxoffice_api_title_weekend_period_cn">内地周末票房的周期：</string>
+
+    <string name="gold_api_title_future">期货黄金</string>
+    <string name="gold_api_title_spot">现货黄金</string>
+    <string name="gold_api_title_buy_number">买量:</string>
+    <string name="gold_api_title_buy_pic">买入价:</string>
+    <string name="gold_api_title_close_pri">最新价:</string>
+    <string name="gold_api_title_code">代码:</string>
+    <string name="gold_api_title_date">日期:</string>
+    <string name="gold_api_title_dynamic_settle">动态结算:</string>
+    <string name="gold_api_title_high_pic">最高价:</string>
+    <string name="gold_api_title_limit">涨跌幅:</string>
+    <string name="gold_api_title_low_pic">最低价:</string>
+    <string name="gold_api_title_name">名称:</string>
+    <string name="gold_api_title_open_pri">开盘价:</string>
+    <string name="gold_api_title_position_num">持仓量:</string>
+    <string name="gold_api_title_sell_number">卖量:</string>
+    <string name="gold_api_title_sell_pic">卖出价:</string>
+    <string name="gold_api_title_total_vol">成交量:</string>
+    <string name="gold_api_title_yesterday_pic">昨收价:</string>
+    <string name="gold_api_title_yesterday_settle">昨日结算:</string>
+    <string name="gold_api_title_time">时间:</string>
+    <string name="gold_api_title_total_turnover">总成交额:</string>
+    <string name="gold_api_title_variety">品种:</string>
+
+    <string name="exchange_api_title_rmb_quotation">人民币汇率数据查询</string>
+    <string name="exchange_api_title_currency">主要国家货币代码查询</string>
+    <string name="exchange_api_title_by_code">根据货币代码查询汇率数据</string>
+    <string name="exchange_api_title_real_time">分页查询汇率实时数据</string>
+    <string name="exchange_api_title_bank_boc">中国银行</string>
+    <string name="exchange_api_title_bank_icbc">工商银行</string>
+    <string name="exchange_api_title_bank_cmb">招商银行</string>
+    <string name="exchange_api_title_bank_ccb">建设银行</string>
+    <string name="exchange_api_title_bank_abc">农业银行</string>
+    <string name="exchange_api_title_bank_bcm">交通银行</string>
+    <string name="exchange_api_title_bank_name">银行名称:</string>
+    <string name="exchange_api_title_bank_code">银行代码:</string>
+    <string name="exchange_api_title_currency_name">币种名称:</string>
+    <string name="exchange_api_title_currency_code">币种代码:</string>
+    <string name="exchange_api_title_f_buy_pri">现汇买入价:</string>
+    <string name="exchange_api_title_m_buy_pri">现钞买入价:</string>
+    <string name="exchange_api_title_f_sell_pri">现汇卖出价:</string>
+    <string name="exchange_api_title_m_sell_pri">现钞卖出价:</string>
+    <string name="exchange_api_title_bank_concversion_pri">银行折算价(中间价):</string>
+    <string name="exchange_api_title_pub_date">发布日期:</string>
+    <string name="exchange_api_title_pub_time">发布时间:</string>
+    <string name="exchange_api_title_buy_pic">买入价:</string>
+    <string name="exchange_api_title_close_pri">最新价:</string>
+    <string name="exchange_api_title_rate_code">货币汇率代码:</string>
+    <string name="exchange_api_title_rate_name">汇率名字:</string>
+    <string name="exchange_api_title_date">日期:</string>
+    <string name="exchange_api_title_diff_amo">涨跌额:</string>
+    <string name="exchange_api_title_diff_per">涨跌幅:</string>
+    <string name="exchange_api_title_high_pic">最高价:</string>
+    <string name="exchange_api_title_low_pic">最低价:</string>
+    <string name="exchange_api_title_open_pri">开盘价:</string>
+    <string name="exchange_api_title_range">振幅:</string>
+    <string name="exchange_api_title_sell_pic">卖出价:</string>
+    <string name="exchange_api_title_yesterday_pic">昨收价:</string>
+</resources>

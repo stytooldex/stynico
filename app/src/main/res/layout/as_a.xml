@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:id="@+id/asaLinearLayout1">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:layout_height="48dp"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:gravity="center">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:text="震惊！少女……"
+				android:layout_width="wrap_content"
+				android:textSize="18sp"
+				android:id="@+id/asaTextView2"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:gravity="center">
+
+			<View
+				android:layout_height="1dp"
+				android:layout_width="match_parent"
+				android:layout_weight="1.0"
+				android:background="#20000000"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_marginLeft="6dp"
+				android:layout_marginRight="6dp"
+				android:textColor="#20000000"
+				android:id="@+id/asaTextView1"/>
+
+			<View
+				android:layout_height="1dp"
+				android:background="#20000000"
+				android:layout_width="match_parent"
+				android:layout_weight="1.0"/>
+
+		</LinearLayout>
+
+		<ScrollView
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:layout_marginLeft="12dp"
+			android:layout_marginRight="12dp"
+			android:layout_marginTop="4dp">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_width="wrap_content"
+				android:autoLink="web"
+				android:id="@+id/asaTextView3"/>
+
+		</ScrollView>
+
+	</LinearLayout>
+
+</LinearLayout>
+
