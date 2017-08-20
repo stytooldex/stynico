@@ -674,7 +674,7 @@ public class SimpleActivity extends AppCompatActivity
 		{//第一次
             makeRootDirectory(Environment.getExternalStorageDirectory().getPath() + "/Android/styTool");
             i.edit().putBoolean("FIRST", false).commit();
-            Bmob.initialize(this, "hvuvg");
+            Bmob.initialize(this, "71bedab5e874d985166b68ac4ab988bb");
             AppCompatDialog alertDialog = new AlertDialog.Builder(this)
 				.setTitle(Constant.a_mi)
 				.setMessage(Constant.a_miui)
